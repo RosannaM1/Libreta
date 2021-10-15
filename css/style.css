@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5eff00;
+}
+
+.title {
+    margin-top: 12.5px;
+    text-align: center;
+    color: #000000;
+}
+
+.font {
+    font-family: 'Arial',
+        sans-serif;
+}
+
+.font1 {
+    font-family: 'Arial',
+        sans-serif;
+        margin-top: 25px;
+
+}
+
+
+.fa-address-book {
+    font-size: 5em;
+}
+
+.row {
+    margin-top: 25px;
+}
+
+.col1{
+    background: #ffffff;
+    margin: 2px;
+    padding: 5px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: auto ;
+    margin-right:auto;
+}
+
+
+.col2 {
+    background: #ffffff;
+    margin: 2px;
+    padding: 5px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 450px;
+margin-left: -250px ;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.imp1 input, .imp2 input, .imp3 input {
+    padding: 5px;
+    margin: 25px;
+    border: 1px #047500 solid;
+    border-radius: 3px; 
+    font-family: 'Arial',
+    sans-serif;
+}
+
+input{
+    width: 200px;
+    height: 15px;
+}
+
+.col1{
+    width: 500px;
+}
+.col2{
+    position: relative;
+    bottom: 410px;
+    left: 670px;
+    width: 500px;
+}
+
+.contactos {
+    width: 200px;
+    height: 25px;
+}
+
+.contactos:hover {
+    border: 1px #00c964 solid;
+}
+
+.info-contact{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: scroll;
+    overflow: auto;
+    height: 250px;
+    overflow-x:hidden;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+thead{
+    background: #00ff55;
+    color: #ffffff;
+}
+
+tbody tr td{
+    text-align: start;
+    font-size: 11.6px;
+}
+
+.boton-enviar {
+    margin-top: 15px;
+    border: 1px #00ff4c solid;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    color: #ffffff;
+    background: #409EFF;
+}
+
+.boton-enviar:hover {
+    cursor: pointer;
+    border: 1px rgb(0, 117, 20) solid;
+    background: rgb(0, 255, 115);
+}
